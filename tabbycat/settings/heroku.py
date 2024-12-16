@@ -94,6 +94,9 @@ CHANNEL_LAYERS = {
             # This matches websocket_timeout in Daphne
             "group_expiry": 10800,
         },
+        "OPTIONS": {
+            "SSL_CONTEXT": ssl.create_default_context()  # Add SSL context here as well
+        },
         # RedisChannelLayer should pool by default,
     },
 }

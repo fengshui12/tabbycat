@@ -80,6 +80,7 @@ CACHES = {
             "SOCKET_CONNECT_TIMEOUT": 5,
             "SOCKET_TIMEOUT": 60,
             "SSL_CERT_REJECTED": False,
+            "SSL_CONTEXT": ssl.create_default_context(),
         },
     },
 }

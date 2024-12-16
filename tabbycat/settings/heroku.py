@@ -79,7 +79,7 @@ CACHES = {
             # "CONNECTION_POOL_KWARGS": {"max_connections": 5} # See above
             "SOCKET_CONNECT_TIMEOUT": 5,
             "SOCKET_TIMEOUT": 60,
-            'SSL_CERT_REJECTED': False,
+            "SSL_CERT_REJECTED": False,
         },
     },
 }
